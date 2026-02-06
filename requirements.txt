@@ -1,0 +1,18 @@
+# Core dependencies for YOLOv8 thermal object detection
+ultralytics>=8.0.0
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+Pillow>=9.5.0
+PyYAML>=6.0
+tqdm>=4.65.0
+
+# For mAP evaluation
+pycocotools>=2.0.6
+scikit-learn>=1.3.0
+
+# Data augmentation
+albumentations>=1.3.0
+imgaug>=0.4.0
