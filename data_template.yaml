@@ -1,0 +1,32 @@
+# YOLOv8 Dataset Configuration Template
+# Copy and modify this file for your thermal imagery dataset
+
+# Dataset root path
+path: ./data/thermal  # Root directory of dataset
+
+# Train/val/test splits (relative to path)
+train: train/images
+val: val/images
+test: test/images
+
+# Number of classes
+nc: 5
+
+# Class names
+names: ['person', 'car', 'bicycle', 'motorbike', 'bus']
+
+# Optional: Class weights for imbalanced datasets
+# class_weights: [1.0, 1.5, 1.2, 1.3, 1.4]
+
+# Dataset Info
+# Modify these fields based on your dataset
+dataset_name: "Thermal UAV Object Detection"
+dataset_description: "Thermal imagery dataset for object detection in UAV applications"
+
+# Image properties (for reference)
+image_size: 640  # Default training size
+image_format: "jpg"  # or "png"
+
+# Label format: YOLO
+# Each label file (.txt) contains: class_id x_center y_center width height
+# where x_center, y_center, width, height are normalized [0, 1]
